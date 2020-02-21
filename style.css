@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins',sans-serif ;
+}
+
+.header {
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/header-bg.png);
+}
+
+.half-width {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.hero-area {
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+.header.half-width img {
+    margin-top: 100px;
+    width: 85%;
+}
+
+.magenta-color {
+    color: #EC4F8E;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.link-button {
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #EC4F8E;;
+    border: 1px solid transparent;
+}
+
+.link-button:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+.biography {
+    width: 100%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-image: url(./images/biography-bg.png);
+}
+
+.biography img {
+    padding-top: 100px;
+    width: 100%;
+    height: 65%;
+}
+.biography .content {
+    padding-top: 250px;
+}
+.half-width h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.my-latest-work {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/latest-work-bg.png);
+}
+
+.my-latest-work h2 {
+    padding: 50px 0;
+}
+
+.my-latest-work img {
+    width: 27%;
+    height: 400px;
+    margin: 10px;
+}
+
+.my-latest-work img:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 40px gray;
+}
